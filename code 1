@@ -1,268 +1,31 @@
- campaignTrail_temp.election_json = [
+campaignTrail_temp.election_json = [
     {
         "model": "campaign_trail.election",
         "pk": 20,
         "fields": {
             "year": 2016,
-            "summary": "After a difficult primary battle, Hillary Clinton has became the nominee of the Democratic Party, widely seen as a betrayal of the left, thanks to Bernie Sanders' victory of the popular vote in the primary. This has led to large-scale apathy on the left, and interest in a third party left of the Democrats.\n\nOn the right side of the spectrum, Donald Trump has secured the Republican nomination narrowly against establishment candidates such as John Kaisich and Marco Rubio. A rather controversial candidate, Trump promises an end to NAFTA and perhaps a softening of the Republican position on social security, but also represents a hardline anti-immigration position.\n\nAmidst this chaos, Dr. Jill Stein sees herself as the woman who could potentially save America. Either way, she will have an uphill battle if she wants her campaign to be taken seriously.",
-            "image_url": "https://imgur.com/a/Pqy0YJ0",
+            "display_year": "2024Template",
+            "summary": "THIS GODDAMN ELECTION A  SHAM BETWEEN A SENILE NEOLIEBRAL DEMOCRAT(biden) AND A NEO FASCIISTIC AUTHOTHARIAN PRESIDEDNT ONLY JILL CAN SSVE US",
+            "image_url": "data:image/jpeg;base64,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",
             "winning_electoral_vote_number": 270,
-            "advisor_url": "https://imgur.com/8reJA0n",
-            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">Articles</h4>FiveThirtyEight - <a href=\"http://projects.fivethirtyeight.com/2016-swing-the-election/\" target=\"_blank\"> What Would It Take To Turn Blue States Red?</a></br><a href=\"http://thehill.com/blogs/ballot-box/presidential-races/274317-anti-trump-forces-point-to-losing-match-ups-with-clinton\">Anti-Trump forces seize on grim polls for Clinton match-up</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/02/24/donald_trump_could_beat_hillary_clinton_in_the_general.html\">Think Hillary Clinton Will Crush Donald Trump in the General Election? Don’t Be So Sure.</a></br><a href=\"http://www.slate.com/blogs/the_slatest/2016/03/01/hillary_clinton_plots_her_general_election_trump_strategy.html\">How Team Clinton Is Planning to Defeat Trump</a></br><a href=\"http://www.vox.com/2016/2/10/10961324/donald-trump-win-november\">Here's Donald Trump's Best Strategy for Winning the White House</a><h4>Books</h4>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1476751471/amhius20-20\" target=\"_blank\">Hard Choices</a></br>\nHillary Clinton - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0743222253/amhius20-20\" target=\"_blank\">Living History</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/1501137964/amhius20-20\" target=\"_blank\">Crippled America: How to Make America Great Again</a></br>\nDonald Trump - <a href=\"http://www.amazon.com/exec/obidos/ASIN/0399594493/amhius20-20\" target=\"_blank\">The Art of the Deal</a></br>\nGary Johnson - <a href=\"http://www.amazon.com/exec/obidos/ASIN/B008PXW0C0/amhius20-20\" target=\"_blank\">Seven Principles of Good Government</a>",
+            "advisor_url": "123",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
             "has_visits": 1,
-            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/2012-no-majority.jpg",
-            "creator": "Dan Bryan",
-            "display_year": "Jill Stein for President 2016"
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
         }
     }
 ]
 
-campaignTrail_temp.candidate_json = [
+campaignTrail_temp.temp_election_list = [
     {
-        "model": "campaign_trail.candidate",
-        "pk": 200,
-        "fields": {
-            "first_name": "Donald",
-            "last_name": "Trump",
-            "election": 20,
-            "party": "Republican",
-            "state": "New York",
-            "priority": 1,
-            "description": "<p>Donald Trump has shocked the political establishment by winning the Republican nomination in a divisive contest. He has taken a hard line on immigration and tax cuts, along with unorthodox positions on many other issues. He must unite his own party while finding some way to peel off potential Clinton voters -- or to blunt their enthusiasm for Clinton enough that they stay home. Will he continue the strategy of relentless attack that served him so well in the primary season?</p>",
-            "color_hex": "#0f94bf",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/donald-trump-2016.jpg",
-            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Hillary Clinton, you have shocked the world with your election victory.</p><p>On the political front, you have the bully pulpit in your favor, but support in Congress in uncertain. Will you govern as a more traditional conservative, or will you make a break from orthodoxy?</p>",
-            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Hillary Clinton. Republicans in general believe this was a very winnable election, and are enraged that you came in to blow it. Luckily, there are any number of ways for you to take advantage of your newfound exposure. One rumor even has you founding a television station to profit from the aggrieved sensibilities of your followers. The future is in your hands.</p>",
-            "no_electoral_majority_message": "<h3>Wow! You have pulled out 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate you to the Presidency. Time will tell how things go in that regard. Any mutual affection between you and Congress is predicted to be short-lived, but you've pulled off a number of surprises to get this far.</p>",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 201,
-        "fields": {
-            "first_name": "Hillary",
-            "last_name": "Clinton",
-            "election": 20,
-            "party": "Democrat",
-            "state": "New York",
-            "priority": 2,
-            "description": "<p>As expected, Hillary Clinton has carried her party's nomination, and now faces an unexpected opponent in Donald Trump. She was traditionally known as a mainstream Democrat, but tacked significantly to the left during the primary campaign. Clinton enters the general election in a strong position, but she'll be under relentless attack on a number of fronts. Can she make the case that she truly in touch with the American people -- or that Trump would be an even worse option?</p>",
-            "color_hex": "#b8306d",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/hillary-clinton-2016.jpg",
-            "electoral_victory_message": "<h3>Congratulations! You have won the 2016 election.</h3><p>In spite of a hard-fought challenge from Donald Trump, you have become the first woman elected to serve as President.</p><p>On the political front, it is unclear how much of your agenda you will be able to push forward with the current Congress. Hopefully your victory has helped Democrats further down the ballot. Start packing and prepare to move back into the White House!</p>",
-            "electoral_loss_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>Many of your supporters are despondent that you have faltered to the likes of Donald Trump. Many in the left wing of the party are furious that you pushed their candidate aside, only to lose. Time will tell how Trump operates as President. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
-            "no_electoral_majority_message": "<h3>Sorry! You have lost the 2016 election.</h3><p>No candidate secured a majority in the Electoral College. However, the Republicans won a majority in Congress and will elevate Trump to the Presidency. Time will tell how things go in that regard. As for you, a long and sometimes ambiguous political career seems to be coming to its end.</p>",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 202,
-        "fields": {
-            "first_name": "Gary",
-            "last_name": "Johnson",
-            "election": 20,
-            "party": "Libertarian",
-            "state": "New Mexico",
-            "priority": 3,
-            "description": "'",
-            "color_hex": "#f3bc3a",
-            "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 203,
-        "fields": {
-            "first_name": "Jill",
-            "last_name": "Stein",
-            "election": 20,
-            "party": "Green",
-            "state": "Massachusetts",
-            "priority": 4,
-            "description": "<b> Jill Stein. </b>\n\n<p> Jill Stein represents all the Green Party has long stood for. What they've fought for. </p>\n\n<p> A doctor and former Democrat who joined the party in the year 2002, not long after Ralph Nader's 2000 bid, Jill Stein quickly made a name for herself as an environmental activist. </p>\n\n<p> Her close ties to environmentalism and the Green Party itself will prove to be both one of her greatest assets and drawbacks throughout the campaign. </p>",
-            "color_hex": "#498f32",
-            "secondary_color_hex": "#A1FFA1",
-            "is_active": 1,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 1,
-            "running_mate": false
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 204,
-        "fields": {
-            "first_name": "Mike",
-            "last_name": "Pence",
-            "election": 20,
-            "party": "Republican",
-            "state": "Indiana",
-            "priority": 5,
-            "description": "'",
-            "color_hex": "#FF0000",
-            "secondary_color_hex": "#FFA0A0",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/mike-pence-2016.jpg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Mike Pence is a former Congressman and the current Governor of Indiana. He is a popular figure among social conservatives and would help assuage concern about Trump among party insiders. He would add executive experience to the ticket and make few mistakes on the campaign trail, but he could also undercut Trump's outsider credentials.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 209,
-        "fields": {
-            "first_name": "Tim",
-            "last_name": "Kaine",
-            "election": 20,
-            "party": "Democrat",
-            "state": "Virginia",
-            "priority": 9,
-            "description": "'",
-            "color_hex": "#0000FF",
-            "secondary_color_hex": "#90C0FF",
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/static/images/tim-kaine-2016.jpg",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "<p>Tim Kaine has served as a Governor and Senator from Virginia, and shares similar political views to Hillary Clinton. He is fluent in both Spanish and English.</p><p>A lot of people see Kaine as a safe, experienced pick. He has little to offer to the wing of the party that supported Bernie Sanders during the nomination fight.</p>",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 214,
-        "fields": {
-            "first_name": "Bill",
-            "last_name": "Weld",
-            "election": 20,
-            "party": "Libertarian",
-            "state": "Massachusetts",
-            "priority": 14,
-            "description": "'",
-            "color_hex": "#FFFF00",
-            "secondary_color_hex": "#FFFFC0",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": "'",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 215,
-        "fields": {
-            "first_name": "Nina",
-            "last_name": "Turner",
-            "election": 20,
-            "party": "Green",
-            "state": "Washington DC",
-            "priority": 15,
-            "description": "'",
-            "color_hex": "#137d1c",
-            "secondary_color_hex": "#A1FFA1",
-            "is_active": 0,
-            "image_url": "'",
-            "electoral_victory_message": "'",
-            "electoral_loss_message": "'",
-            "no_electoral_majority_message": "'",
-            "description_as_running_mate": " If Jill Stein is the core of the Green Party, Nina Turner represents who the Green Party seeks to court this year - disaffected progressive Democrats.\n\nAfter the perceived 'stolen primary' by Clinton, Nina Turner accepted Stein's invitation to become her running mate, making history as the first all-female presidential ticket. Whether Turner will allow Stein to achieve her goal of courting those turned off by Clinton's candidacy, will soon be seen. ",
-            "candidate_score": 0,
-            "running_mate": true
-        }
-    },
-    {
-        "model": "campaign_trail.candidate",
-        "pk": 20682,
-        "fields": {
-            "first_name": "Evan",
-            "last_name": "McMullin",
-            "election": 20,
-            "party": "The C.I.A.",
-            "state": "Utah",
-            "priority": 1,
-            "description": "<p>Put description here</p>",
-            "color_hex": "#766529",
-            "secondary_color_hex": null,
-            "is_active": 0,
-            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
-            "electoral_victory_message": "This guy wins!",
-            "electoral_loss_message": "This guy loses!",
-            "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": null,
-            "candidate_score": 1,
-            "running_mate": false
-        }
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2024Template"
     }
 ]
 
-campaignTrail_temp.running_mate_json = [
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 161,
-        "fields": {
-            "candidate": 203,
-            "running_mate": 215
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 160,
-        "fields": {
-            "candidate": 202,
-            "running_mate": 214
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 155,
-        "fields": {
-            "candidate": 201,
-            "running_mate": 209
-        }
-    },
-    {
-        "model": "campaign_trail.running_mate",
-        "pk": 150,
-        "fields": {
-            "candidate": 200,
-            "running_mate": 204
-        }
-    }
-]
-
-campaignTrail_temp.credits = "Terra"
+campaignTrail_temp.credits = "inocentnonspend"
 
 campaignTrail_temp.global_parameter_json = [
     {
@@ -282,9 +45,69 @@ campaignTrail_temp.global_parameter_json = [
             "issue_stance_6_max": 0.71,
             "global_variance": 0.01,
             "state_variance": 0.005,
-            "question_count": 20,
+            "question_count": 5,
             "default_map_color_hex": "#C9C9C9",
             "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1001,
+        "fields": {
+            "first_name": "Jill ",
+            "last_name": "Stein",
+            "election": 20,
+            "party": "Steinist-Green",
+            "state": "Idaho",
+            "priority": 1,
+            "description": "stein represents the progressive part of green he attempts to pull dissapties progressive to win GRAWHH!!!!",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 1002,
+        "fields": {
+            "first_name": "VP SECRET",
+            "last_name": "VP SECRET",
+            "election": 20,
+            "party": "VP SECRET",
+            "state": "VP SECRET",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/candidateexample.png",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "VP WILL BE A PICK ME FROM PSL OR DEMOCRAT",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 109261,
+        "fields": {
+            "candidate": 1001,
+            "running_mate": 1002
         }
     }
 ]
@@ -293,11 +116,7 @@ campaignTrail_temp.opponents_default_json = [
     {
         "election": 20,
         "candidates": [
-            200,
-            201,
-            202,
-            203,
-            20682
+            1001
         ]
     }
 ]
@@ -306,292 +125,43 @@ campaignTrail_temp.opponents_weighted_json = [
     {
         "election": 20,
         "candidates": [
-            200,
-            201,
-            202,
-            203,
-            20682
+            1001
         ]
     }
 ]
 
-campaignTrail_temp.temp_election_list = [
-    {
-        "id": 20,
-        "year": 2016,
-        "is_premium": 0,
-        "display_year": "Jill Stein for President 2016"
-    }
-]
-
 jet_data = {
-    "headerColor": "#204a1a",
-    "windowColor": "#37730f",
-    "containerColor": "#439d28",
-    "innerWindowColor": "#88ae73",
-    "bannerImageUrl": "https://imgur.com/dMzfg2H",
-    "backgroundImageUrl": "https://imgur.com/z7gePry",
+    "headerColor": "#700016",
+    "windowColor": "#BFE6FF",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#E8FBFF",
+    "bannerImageUrl": "https://assets.nationbuilder.com/jillsteinforpresident/sites/38/meta_images/original/Logo-C-%28vector%29.png?1726853523",
+    "backgroundImageUrl": "https://assets.nationbuilder.com/jillsteinforpresident/sites/38/meta_images/original/Logo-C-%28vector%29.png?1726853523",
     "endingTextColor": "#000000",
-    "customQuote": "\"Why not liberate voters to actually vote your values?\" - Jill Stein",
-    "gameTitle": "JILL STEIN FOR PRESIDENT"
+    "customQuote": "",
+    "gameTitle": "Eine Grunere Future"
 }
 
 //#startcode
 
 
-corrr = '\n              <h2>JILL STEIN FOR PRESIDENT</h2><font id="wittyquote" size="4" color="white"><em>"Why not liberate voters to actually vote your values?" - Jill Stein</em></font>\n            ';
+corrr = '\n              <h2>Eine Grunere Future</h2>\n            ';
 
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#204a1a";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#37730f";
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#BFE6FF";
 
 document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
 
 $("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
 
-$(".container")[0].style.backgroundColor = "#439d28";
+$(".container")[0].style.backgroundColor = "#FFFFFF";
 
-document.getElementById("header").src = "https://imgur.com/dMzfg2H";
+document.getElementById("header").src = "https://assets.nationbuilder.com/jillsteinforpresident/sites/38/meta_images/original/Logo-C-%28vector%29.png?1726853523";
 
-document.body.background = "https://imgur.com/z7gePry";
+document.body.background = "https://assets.nationbuilder.com/jillsteinforpresident/sites/38/meta_images/original/Logo-C-%28vector%29.png?1726853523";
 
-document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#88ae73!important;}</style>";
+document.head.innerHTML += "<style>#results_container {color:#000000;} .inner_window_w_desc {background-color:#E8FBFF!important;}</style>";
 
 //#endcode
-
-// Initialise custom music
-
-$("#music_player")[0].children[0].style.display="none"
-$("#music_player")[0].children[1].style.display="none"
-
-document.getElementById("modLoadReveal").style.display="none"
-document.getElementById("modloaddiv").style.display="none"
-
-musicBox = document.getElementById("music_player")
-musicBox.style.display=""
-
-var trackSel;
-e = campaignTrail_temp
-e.selectedSoundtrack = 0
-
-toTime = (seconds) => {
-  var date = new Date(null);
-  date.setSeconds(seconds);
-  return date.toISOString().substr(11, 8);
-}
-
-generateTime = () => {
-    // Get the audio element
-    var audio = document.getElementById("campaigntrailmusic");
-
-    timeTracker = document.createElement("div");
-    timeTracker.style = `
-      text-align:left;
-      border-style:solid;
-      border-width:3px;
-      height:150px;
-      width:200px;
-      background-color:#999999;
-      float:right;
-      padding: 10px;
-    `
-    $("#trackSelParent")[0].prepend(timeTracker);
-    $("#trackSelParent")[0].prepend(document.createElement("br"));
-
-    // Create a new element to display the current position of the audio
-    var positionDisplay = document.createElement("gg");
-    positionDisplay.id = "position-display";
-
-    // Create a new slider element to change the time
-    var timeSlider = document.createElement("input");
-    timeSlider.type = "range";
-    timeSlider.min = 0;
-    timeSlider.max = 1;
-    timeSlider.step = 0.001;
-    timeSlider.value = 0;
-    timeSlider.style.width = "200px";
-    timeSlider.id = "time-slider";
-
-    var pausePlay = document.createElement("button");
-    pausePlay.id = "position-display";
-    pausePlay.innerHTML = "<b>Pause</b>"
-    pausePlay.style.width = "100%";
-
-
-    pausePlay.addEventListener("click", event => {
-      event.preventDefault();
-      updatePositionDisplay();
-      let audio = document.getElementById("campaigntrailmusic");
-      if (audio.paused) {
-        audio.play();
-        event.target.innerHTML = "<b>Pause</b>";
-        return;
-      }
-      audio.pause();
-      event.target.innerHTML = "<b>Play</b>";
-      return;
-    })
-
-    var volumeLabel = document.createElement("gg");
-    volumeLabel.id = "volume-label";
-    volumeLabel.innerHTML = "<br><b>Volume: </b>"
-
-    var volumeSlider = document.createElement("input");
-    volumeSlider.type = "range";
-    volumeSlider.min = 0;
-    volumeSlider.max = 1;
-    volumeSlider.step = 0.001;
-    volumeSlider.value = 0;
-    volumeSlider.style.width = "200px";
-    volumeSlider.id = "volume-slider";
-
-    volumeSlider.value = audio.volume;
-
-    timeTracker.appendChild(pausePlay);
-    timeTracker.appendChild(document.createElement("br"));
-    timeTracker.appendChild(document.createElement("br"));
-    timeTracker.appendChild(positionDisplay);
-    timeTracker.appendChild(timeSlider);
-    timeTracker.appendChild(volumeLabel);
-    timeTracker.appendChild(volumeSlider);
-
-    updatePositionDisplay();
-
-    //for (let i = 0; i < 10; i++)
-    //timeTracker.append(document.createElement("br"));
-
-
-    // Function to update the position display
-    function updatePositionDisplay() {
-      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
-      timeSlider.value = audio.duration ? audio.currentTime / audio.duration : 0;
-    }
-
-    // Function to change the time of the audio
-    function changeTime() {
-      positionDisplay.innerHTML = "<b>Time:</b> " + toTime(audio.currentTime) + "<br>";
-      audio.currentTime = timeSlider.value * audio.duration;
-    }
-
-    updateVolume = event => {
-      audio.volume = event.target.value;
-    }
-    
-    // Update the position display and slider every second
-    setInterval(updatePositionDisplay, 1000);
-
-    // Listen for changes to the time slider and change the time of the audio
-    timeSlider.addEventListener("input", changeTime);
-    volumeSlider.addEventListener("input", updateVolume)
-}
-
-function newMusicPlayer() {
-  trackSel = document.createElement("div");
-  trackSel.id = "trackSelParent"
-  let z = `<br><br><br><br><br><br><br><br><br><br><div id='trackSel' style="text-align:left;border-style:solid;border-width:3px;overflow-y: scroll;overflow-x: hidden;height:200px; width:400px;background-color:#999999;float:right;">`
-  z += `<b><select id='selectSoundtrack'><option value='`+soundtracks[e.selectedSoundtrack].name+`'>`+soundtracks[e.selectedSoundtrack].name+"</option>"
-  for (i in soundtracks) {
-    if (soundtracks[e.selectedSoundtrack] != soundtracks[i]) {
-      z += `<option value='`+soundtracks[i].name+`'>`+soundtracks[i].name+`</option>`
-    }
-  }
-  z += `</select></b><br><br>`
-  // <label><input type="radio" name="option" value="option1">Option 1</label><br>
-  for (i in soundtracks[e.selectedSoundtrack].tracklist) {
-    let a = soundtracks[e.selectedSoundtrack].tracklist[i]
-    let b = `<label><input class="trackSelector" type="radio" name="trackSelector" value="`+i+`">`+a.name+`</label><br>`
-    z += b
-  }
-  z += "</div><br><br>"
-  trackSel.innerHTML = z
-
-  // select correct song
-
-  musicBox.appendChild(trackSel);
-  Array.from(document.getElementById("trackSel").children).filter(f=>{
-    return f.tagName == "LABEL"
-  }).map(f=>f.children[0])[0].checked = true
-
-  // set soundtrack changer
-
-  soundtrackSelector = document.getElementById("selectSoundtrack")
-  soundtrackSelector.onchange = function() {
-    for (i in soundtracks) {
-      if (soundtracks[i].name == soundtrackSelector.value) {
-        e.selectedSoundtrack = i
-        break
-      }
-    }
-    document.getElementById("trackSelParent").remove()
-    newMusicPlayer()
-  }
-
-  var matches = document.querySelectorAll('.trackSelector');
-
-  for (match in matches) {
-    matches[match].onchange = function() {
-      audio = $("#campaigntrailmusic")[0];
-      audio.src = soundtracks[e.selectedSoundtrack].tracklist[this.value].url
-      audio.currentTime = 0
-    }
-  }
-
-  musicBox.children[2].loop = false
-  musicBox.children[2].src = soundtracks[e.selectedSoundtrack].tracklist[0].url
-
-  musicBox.children[2].onended = function() {
-    console.log("next track")
-    let selected = Number(document.querySelector('input[name="trackSelector"]:checked').value);
-    let newSel = clamp(selected+1, soundtracks[e.selectedSoundtrack].tracklist.length-1, 0)
-    let buttons = Array.from(document.getElementById("trackSel").children).filter(f=>{
-      return f.tagName == "LABEL"
-    }).map(f=>f.children[0])
-    //let selectedIndex = buttons.map(f=>f.children[0]).map(f=>f.checked)
-    buttons[newSel].click()
-  }
-
-  for (w = 0; w < 7; w++) {
-    document.getElementById("trackSelParent").appendChild(document.createElement("br"))
-  }
-  
-  generateTime();
-}
-
-clamp = function(a, max, min, overflow=true) {
-  if (overflow) {
-    return a > max ? min : a < min ? max : a;
-  }
-  return a > max ? max : a < min ? min : a;
-}
-
-
-// Track list
-
-var soundtracks = {
-  0: {
-    name: "2010s Pop Hits",
-    tracklist: [
-      {
-        "name": "Chris Brown - Don't Wake Me Up",
-        "url": "https://www.sndup.net/ynybf/d"
-      },
-      {
-        "name": "Rihanna - Diamonds",
-        "url": "https://www.sndup.net/7gkqz/d"
-		},
-      {
-        "name": "Taylor Swift - Bad Blood",
-        "url": "https://www.sndup.net/8dtnc/d"
-      },
-      {
-        "name": "Taylor Swift - Blank Space",
-        "url": "https://www.sndup.net/qyhvq/d"
-      },              
-    ]
-  }
-}
-
-// Set up new music player
-
-newMusicPlayer()
